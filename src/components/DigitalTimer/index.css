@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to right, white, skyBlue);
+  overflow: auto;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timeImg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+.controllers {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnSec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.controlImg {
+  width: 30px;
+  margin-right: 10px;
+}
+button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.eachBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setTime {
+  display: flex;
+}
+.minutes {
+  padding: 6px;
+  background-color: lightgreen;
+  margin-left: 10px;
+  margin-right: 10px;
+}
